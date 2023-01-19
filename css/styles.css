@@ -1,0 +1,26 @@
+body {
+    font-family: arial;
+}
+
+h2 {
+  color: darkorchid;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+}
+
+td, th {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+
+tr:nth-child(odd) {
+  background-color: lavender;
+}
+
+tr:nth-child(even) {
+  background-color: lightgoldenrodyellow;
+}
